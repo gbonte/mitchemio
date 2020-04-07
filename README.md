@@ -18,16 +18,19 @@ activity against Pseudomonas aeruginosa.
 To compare your results against our numbers, we have included the 10 splits used
 for cross-validation, where indices index into the train set. 
 
-## Submitting your predictions
 
-We ask that you predict the activity of molecules included in the test set
-`test.csv`.
+## Feature extraction 
+It is done in the script mread.R
 
-A sample submission file is included: `test_predictions_sample.csv`.  The
-activity column should be a float between 0 and 1.  Your predictions will be
-evaluated against the golden labels to compute an [AUC](https://github.com/yangkevin2/coronavirus_data/blob/master/scripts/evaluate_auc.py).
+3 types of feature extraction are performed thanks to the R rcdk package
 
+* Molecular description of smiles 
+* Distance of smiles from known smiles (contained in the SMILES_COVID19-Sheet1.csv file)
+* Distance of smiles from positive smiles in the training set
 
-## Changelog
+## Feature assessment 
+It is done in the script predfs.R
 
-1.1: Updated `test.csv` and `test_predictions_sample.csv` to accept SMILES as index for predictions.
+## Prediction  testset
+It is done in the script predts.R
+
