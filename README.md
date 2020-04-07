@@ -1,8 +1,6 @@
-# Pseudomonas aeruginosa dataset
+# MLG results related to the Pseudomonas aeruginosa dataset
 
-Version 1.1
 
-## License
 
 The dataset is released under the Public Domain license, i.e., unrestricted. We
 ask that you cite the original, unaltered dataset as 
