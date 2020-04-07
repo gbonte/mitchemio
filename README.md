@@ -19,19 +19,21 @@ activity against Pseudomonas aeruginosa.
 To compare your results against our numbers, we have included the 10 splits used
 for cross-validation, where indices index into the train set. 
 
+## Known smiles
+They are contained in the file `SMILES_COVID19-Sheet1.csv` curated by M. Mehrian.
 
 ## Feature extraction 
-It is done in the script **mread.R**
+It is done in the script `mread.R`
 
 3 types of feature extraction are performed thanks to the R rcdk package
 
 * Molecular description of smiles: saved in file `descr.Rdata`
-* Distance of smiles from known smiles (contained in the SMILES_COVID19-Sheet1.csv file)
-* Distance of smiles from positive smiles in the training set
+* Distance of smiles from known smiles: saved in file `dmetrics1.Rdata`
+* Distance of smiles from positive smiles in the training set: saved in file `dmetrics2.Rdata`
 
 ## Feature assessment 
-It is done in the script **predfs.R**
+It is done in the script `predfs.R`. in particular this script assess the significativity of the choice of known COVID molecules
 
 ## Prediction  testset
-It is done in the script predts.R
+It is done in the script `predts.R`
 
