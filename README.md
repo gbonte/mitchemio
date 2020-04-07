@@ -1,7 +1,8 @@
 # ULB MLG results related to the [Pseudomonas aeruginosa dataset](https://www.aicures.mit.edu/data)
 
 This contains the prediction and feature assessment research work carried out in
-[MLG ULB](http://mlg.ulb.ac.be) by [G. Bontempi](http://di.ulb.ac.be/map/gbonte/Welcome.html) and M. Mehrian. 
+[MLG ULB](http://mlg.ulb.ac.be) by [G. Bontempi](http://di.ulb.ac.be/map/gbonte/Welcome.html) and 
+[M. Mehrian](https://mlg.ulb.ac.be/wordpress/members-2/mmehrian/). 
 
 The dataset is released under the Public Domain license, i.e., unrestricted. We
 ask that you cite the original, unaltered dataset as 
