@@ -17,8 +17,6 @@ https://www.aicures.mit.edu/data
 The files `train.csv` and `test.csv` contain the SMILES of molecules tested for
 activity against Pseudomonas aeruginosa.
 
-To compare your results against our numbers, we have included the 10 splits used
-for cross-validation, where indices index into the train set. 
 
 ## Known smiles
 They are contained in the file `SMILES_COVID19-Sheet1.csv` curated by M. Mehrian
