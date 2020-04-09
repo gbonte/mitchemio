@@ -41,7 +41,7 @@ and assesses the significativity of the choice of known COVID molecules.
 The current version of feature selection script (combination of MRMR and Random Forest importance)
 returns the following 16 molecules as the most relevant ones:
 
-**Moxifloxacin (2 forms),       Anakinra ,          dexlansoprazole,     mesalamine ,   Ceftriaxone ,       Clomiphene, citrate Ivacaftor          Gilteritinib,  Bazedoxifene,       Ribavirin,          Carvedilol, Niclosamide,  Oxyclozanide  ,     Droloxifene   ,     Lercanidipine**
+**Moxifloxacin (2 forms),       Anakinra ,          dexlansoprazole,     mesalamine ,   Ceftriaxone ,       Clomiphene citrate, Ivacaftor,          Gilteritinib,  Bazedoxifene,       Ribavirin,          Carvedilol, Niclosamide,  Oxyclozanide  ,     Droloxifene   ,     Lercanidipine**
 
 Only 4 are negative controls (hypergeometric p-val 0.0008249591) were selected.
 Associated cross-validated AUC is 0.853.
