@@ -111,21 +111,22 @@ queries=as.character(RQ[,3])
 I1=which(Y==1)
 smiles1=as.character(R[I1,2])
 
+if (FALSE){
 N1=NROW(R)
 mX=dmetrics(c(as.character(R[,2]),as.character(R2[,1])),queries)
 X=mX[1:N1,]
 Xts=mX[(N1+1):NROW(mX),]
 save(file="dmetrics1.Rdata", list=c("N1","X","Y","Xts"))
+}
 
 
-if (FALSE){
     dX=descriptor(c(as.character(R[,2]),as.character(R2[,1])))
     X=dX[1:N1,]
     Xts=dX[(N1+1):NROW(dX),]
     save(file="descr.Rdata", list=c("N1","X","Y","Xts"))
     
     
-    
+if (FALSE){   
     
     mX2=dmetrics(c(as.character(R[,2]),as.character(R2[,1])),smiles1)
     X=mX2[1:N1,]
