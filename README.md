@@ -21,7 +21,9 @@ To compare your results against our numbers, we have included the 10 splits used
 for cross-validation, where indices index into the train set. 
 
 ## Known smiles
-They are contained in the file `SMILES_COVID19-Sheet1.csv` curated by M. Mehrian.
+They are contained in the file `SMILES_COVID19-Sheet1.csv` curated by M. Mehrian
+The related Google sheets is [here](https://docs.google.com/spreadsheets/d/1Ll26liuImbjxnkfwunEBb9Hn9nH38lUvOsLJaYLayFQ/edit#gid=0).
+It contains 140 molecules related to COVID and 70 negative controls
 
 ## Feature extraction 
 It is done in the script `mread.R`
@@ -34,6 +36,15 @@ It is done in the script `mread.R`
 
 ## Feature assessment 
 It is done in the script `predfs.R`. in particular this script assess the significativity of the choice of known COVID molecules
+
+The current version of feature selection script returns the following 16 molecules as the most relevant ones:
+
+ Moxifloxacin (2 forms)       Anakinra           dexlansoprazole    mesalamine        
+ Ceftriaxone        Clomiphene citrate Ivacaftor          Gilteritinib      
+ Bazedoxifene       Ribavirin          Carvedilol         Niclosamide       
+ Oxyclozanide       Droloxifene        Lercanidipine     
+
+Only 4 are negative controls (hypergeometric p-val 0.0008249591)
 
 ## Prediction  testset
 It is done in the script `predts.R`
