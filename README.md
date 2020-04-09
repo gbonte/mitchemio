@@ -15,7 +15,7 @@ https://www.aicures.mit.edu/data
 ## About the data
 
 The files `train.csv` and `test.csv` contain the SMILES of molecules tested for
-activity against Pseudomonas aeruginosa.
+activity against Pseudomonas aeruginosa and made available by [MIT AI cures](https://www.aicures.mit.edu/data).
 
 
 ## Known smiles
