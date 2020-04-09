@@ -35,14 +35,23 @@ It is done in the script `mread.R`
 * Distance of smiles from positive smiles in the training set: saved in file `dmetrics2.Rdata`
 
 ## Feature assessment 
-It is done in the script `predfs.R`. in particular this script assess the significativity of the choice of known COVID molecules
+The script `predfs.R`  selects the most informative features (among the ones in `dmetrics1.Rdata` )
+and assesses the significativity of the choice of known COVID molecules.
 
-The current version of feature selection script returns the following 16 molecules as the most relevant ones:
+The current version of feature selection script (combination of MRMR and Random Forest importance)
+returns the following 16 molecules as the most relevant ones:
 
 **Moxifloxacin (2 forms),       Anakinra ,          dexlansoprazole,     mesalamine ,   Ceftriaxone ,       Clomiphene, citrate Ivacaftor          Gilteritinib,  Bazedoxifene,       Ribavirin,          Carvedilol, Niclosamide,  Oxyclozanide  ,     Droloxifene   ,     Lercanidipine**
 
-Only 4 are negative controls (hypergeometric p-val 0.0008249591). Associated cross-validated AUC is 0.53.
+Only 4 are negative controls (hypergeometric p-val 0.0008249591). Associated cross-validated AUC is 0.853.
+
+The preliminary conclusion is then that COVID related molecules are informative about the label of this dataset. Comments welcome.
 
 ## Prediction  testset
 It is done in the script `predts.R`
+
+## Comments/remarks
+Please consider that those are prelimnary results made available for discussion.
+We would be happy to receive comments and remarks.
+Please contact [Pr. G. Bontempi](mailto:gbonte@ulb.ac.be?subject=[mit chemio: Github]).
 
