@@ -31,7 +31,7 @@ It is done in the script `mread.R`
 3 types of feature extraction are performed thanks to the R rcdk package
 
 * Molecular description of smiles: saved in file `descr.Rdata`
-* Distance of smiles from known smiles: saved in file `dmetrics1.Rdata`
+* Distance of smiles from known smiles (see above): saved in file `dmetrics1.Rdata`
 * Distance of smiles from positive smiles in the training set: saved in file `dmetrics2.Rdata`
 
 ## Feature assessment 
@@ -43,7 +43,8 @@ returns the following 16 molecules as the most relevant ones:
 
 **Moxifloxacin (2 forms),       Anakinra ,          dexlansoprazole,     mesalamine ,   Ceftriaxone ,       Clomiphene, citrate Ivacaftor          Gilteritinib,  Bazedoxifene,       Ribavirin,          Carvedilol, Niclosamide,  Oxyclozanide  ,     Droloxifene   ,     Lercanidipine**
 
-Only 4 are negative controls (hypergeometric p-val 0.0008249591). Associated cross-validated AUC is 0.853.
+Only 4 are negative controls (hypergeometric p-val 0.0008249591) were selected.
+Associated cross-validated AUC is 0.853.
 
 The preliminary conclusion is then that COVID related molecules are informative about the label of this dataset. Comments welcome.
 
