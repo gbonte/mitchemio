@@ -52,7 +52,7 @@ The preliminary conclusion is then that COVID related molecules are informative 
 It is done in the script `predts.R`
 
 ## Comments/remarks
-Please consider that those are prelimnary results made available for discussion.
-We would be happy to receive comments and remarks.
+**Please consider that those are preliminary results made available for discussion.**
+**We would be happy to receive comments and remarks.**
 Please contact [Pr. G. Bontempi](mailto:gbonte@ulb.ac.be?subject=[mitchemio:Github]).
 
