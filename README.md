@@ -19,9 +19,11 @@ activity against Pseudomonas aeruginosa and made available by [MIT AI cures](htt
 
 
 ## Known smiles
-They are contained in the file `SMILES_COVID19-Sheet1.csv` curated by M. Mehrian
+They are contained in the file `SMILES_COVID19-Sheet1.csv` curated by M. Mehrian.
 The related Google sheets is [here](https://docs.google.com/spreadsheets/d/1Ll26liuImbjxnkfwunEBb9Hn9nH38lUvOsLJaYLayFQ/edit#gid=0).
-It contains 140 molecules related to COVID and 70 negative controls
+It contains 140 molecules related to COVID and 70 negative controls.
+
+If you are interested in update it please let us know.
 
 ## Feature extraction 
 It is done in the script `mread.R`
