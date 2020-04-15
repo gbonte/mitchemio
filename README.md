@@ -49,9 +49,7 @@ Associated cross-validated AUC is 0.853.
 The preliminary conclusion is then that COVID related molecules are informative about the label of this dataset. Comments welcome.
 
 ## Boxplot distances
-Script `visual.R`: it shows the boxplot of the distances of the  molecules tested for
-activity against Pseudomonas aeruginosa (distinguishing between class 0 and class
-1) with respect to each of the molecules selected above.  This is a visualization of the discrimination power of the distance features.
+Script `visual.R`: it shows the boxplot of the distances of the training set molecules (distinguishing between class 0 and class 1) with respect to each of the molecules selected above.  This is a visualization of the discrimination power of the distance features.
 
 ## Prediction  testset
 It is done in the script `predts.R`
