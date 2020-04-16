@@ -43,7 +43,7 @@ returns the following 16 molecules as the most relevant ones:
 
 **Moxifloxacin (2 forms),       Anakinra ,          dexlansoprazole,     mesalamine ,   Ceftriaxone ,       Clomiphene citrate, Ivacaftor,          Gilteritinib,  Bazedoxifene,       Ribavirin,          Carvedilol, Niclosamide,  Oxyclozanide  ,     Droloxifene   ,     Lercanidipine**
 
-Only 4 are negative controls (hypergeometric p-val 0.0008249591) were selected.
+Only 4 are negative controls were selected.
 Associated cross-validated AUC is 0.853.
 
 The preliminary conclusion is then that COVID related molecules are informative about the label of this dataset. Comments welcome.
